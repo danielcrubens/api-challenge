@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Anton|Sunshiney|Poppins|Acme');
+
+body {
+font-size: 20pt;
+overflow-x: hidden
+}
+.centralizar{
+    margin:0 auto;
+    text-align: center;  
+}
+.photoBlock__description{
+z-index:999;
+margin-top:-50px;
+font-size: 27pt;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="challenge">
+    <meta name="author" content="Daniel Costa Rubens">
+    <title>Api Challenge</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="rgba-stylish-slight">
+    <div class="py-5">
+      <div class="container rgba-blue-slight ">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group col-6 centralizar  py-3">
+              <span>Raça do Animal:</span>
+              <select class="inputBlock__breeds custom-select">
+                <option value="none" disabled selected>Raça</option>
+              </select>
+            </div>
+            <div class="form-group col-6 centralizar py-3">
+              <span>Nome do Animal:</span>
+              <div class="inputBlock__dog">
+                <input type="text"  class="form-control" value="" placeholder="Digite o nome do pet"  id="textDog"  class="inputBlock__dog--text" aria-label="Nome do Cachorro" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="form-group col-6 centralizar py-3">
+              <span>Cor da Fonte:</span>
+              <select class="inputBlock__colors custom-select">
+                <option value="none" disabled selected>Cor</option>
+                <option value="blue">Azul</option>
+                <option value="orange">Laranja</option>
+                <option value="purple">Roxo</option>
+                <option value="green">Verde</option>
+                <option value="red">Vermelho</option>
+              </select>
+            </div>
+            <div class="form-group col-6 centralizar py-3">
+              <span>Estilo de Fonte:</span>
+              <select class="input_fontes custom-select">
+                <option value="none" disabled selected>Fonte</option>
+                <option value="Pacifico">Pacifico</option>
+                <option value=" Anton">Anton</option>
+                <option value="Sunshiney">Sunshiney</option>
+                <option value="Poppins">Poppins</option>
+                <option value="Acme">Acme</option>
+              </select>
+            </div>
+            <div class="col-6 centralizar py-3">
+              <div class="col-auto">
+                  <button class=" my-3 inputBlock__dog--button btn blue-gradient"><i class="fas fa-dog  px-1" aria-hidden="true"></i>Salvar</button>
+                </div>
+            </div>
+          </div>
+          <div class="photoBlock centralizar paddingPattern ">
+            <img class="imagem_photo centralizar img-fluid" >
+            <p class="photoBlock__description font-weight-bold"></p>
+                      <!--SALVO COM SUCESSO -->
+            <h4 class=" pink-text font-weight-bold">
+              <p class="status text-center"></p>
+              <p class="inputHora text-center"></p>
+            </h4>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
